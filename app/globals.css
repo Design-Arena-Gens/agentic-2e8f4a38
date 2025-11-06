@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-amber-50 via-orange-50 to-amber-100;
+  }
+}
+
+@layer utilities {
+  .text-shadow-soft {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .glow-purple {
+    box-shadow: 0 0 20px rgba(107, 70, 193, 0.6);
+  }
+}
